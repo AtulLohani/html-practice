@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ HONEY's MUSIC STUDIO</title>
+    <link rel="icon" type="image x icon" href="\djlogo1.png">
+    <style>
+        body{
+            background-image: url(\pexels-foteros-352505.jpg);
+            background-size: cover;
+            color: white;
+        }
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 25px;
+            display: inline-block;
+        }
+        .left img{
+            width: 80px;
+            margin: -30px;
+        }
+        .mid{
+            display: block;
+            width: 576px;
+            margin: 25px auto;
+        
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 25px;
+            display: inline-block;
+        }
+        .navbar{
+            display:inline-block
+        }
+        .navbar li{
+            color: white;
+            display: inline-block;
+        }
+        .navbar li a{
+            
+            color: white;
+            text-decoration: none;
+            padding: 14px 17px;
+            font-size: 30px;
+        }
+        .navbar li a:hover{
+            color: #0df1f1;
+        }
+        .btn{
+            margin: 19px 9px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            padding: 4px 14px;
+            cursor: pointer;
+            border: 2px solid grey;
+            font-size: 20px;
+        }
+        .btn :hover{
+            background-color: #0df1f1;
+        }
+        .container{
+            
+             margin: 36px -6px;
+             padding: 2px 2px;
+             border-radius: 35px;
+             width: 40%;
+             padding: 30px;
+        }
+        .formgroup input{
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 6px;
+            border: 2px solid rgb(13, 243, 193);
+            margin: 15px auto;
+            border-radius: 20px;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 80%;
+            margin: auto;
+        }
+        .video{
+            margin: -341px 669px;
+            width: 20px;
+        }
+
+    </style>
+</head>
+<body>
+   <header class="header">
+    <div class="left">
+    <img src="\djlogo1.png" alt="">
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Enquiry</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul></div>
+    <div class="right">
+    <button class="btn"> Call Now</button><button class="btn">Email Us</button></div>
+   </header>
+   <div class="container">
+    <h1>Book The Best Dj For Your Event Now</h1>   
+    <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Name" required>
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Locality" required>
+        </div>
+        <div class="formgroup">
+            <input type="number" name="" placeholder="Enter Your Contact" required>
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Email" required>
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+   </div>
+   <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/OJbrzTrLfDM?si=-zkzgEcoau6qsJ4f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+</body>
+</html>

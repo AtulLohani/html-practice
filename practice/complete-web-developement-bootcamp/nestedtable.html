@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colspan & rowspan</title>
+    <style>
+        table,th,td{
+            border: 2px solid orange;
+            align-content: center;
+        }
+        .table2{
+            width: 50%;
+            align-items: center;
+            text-align: center ;
+            color: red;
+            border: 5px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="www.google.com" target="_blank" style="color:greenyellow; text-decoration: none;">go to google</a>
+    <table style="width: 50%;">
+       <tr>
+        <th rowspan="4">INDIA</th>
+        <th>State</th>
+        <th>City</th>
+        <th>RTO</th>
+       </tr>
+       <tr>
+        <td>Madhya Pradesh</td>
+        <td>Indore</td>
+        <td>09</td>
+       </tr>
+       <tr>
+        <td>Madhya Pradesh</td>
+        <td>Ujjain</td>
+        <td>13</td>
+       </tr>
+       <tr>
+        <td>Madhya Pradesh</td>
+        <td>Dewas</td>
+        <td>41</td>
+       </tr>
+    </table>
+    <table class="table2">
+        <tr>
+         <th colspan="2">STATE AND CITY</th>
+         <th>RTO</th>
+        </tr>
+        <tr>
+         <td>Madhya Pradesh</td>
+         <td>Indore</td>
+         <td>09</td>
+        </tr>
+        <tr>
+         <td>Madhya Pradesh</td>
+         <td>Ujjain</td>
+         <td>13</td>
+        </tr>
+        <tr>
+         <td>Madhya Pradesh</td>
+         <td>Dewas</td>
+         <td>41</td>
+        </tr>
+     </table>
+     <table>
+        <tr>
+         <th >STATE AND CITY</th>
+         <th>RTO</th>
+        </tr>
+        <tr>
+         <td>Madhya Pradesh</td>
+         <td>Indore</td>
+         <td>09</td>
+        </tr>
+        <table>
+            <tr>
+            <th>Villages</th>
+            <td>Songir</td>
+            <td>Hatod</td>
+            </tr>
+        <tr>
+         <td>Madhya Pradesh</td>
+         <td>Ujjain</td>
+         <td>13</td>
+        </tr>
+        <tr>
+         <td>Madhya Pradesh</td>
+         <td>Dewas</td>
+         <td>41</td>
+        </tr>
+     </table>
+     </table>
+     <table>
+        <th style="color: green;"> FRUITS
+            <tr>
+                <td>apple</td>
+                <td>orange</td>
+                <td>grapes</td>
+                <td>banana</td>
+                <td>mango</td>
+            </tr>
+            <table> 
+                <th style="color: red;">VEGETABLES</th>
+                 <td>peas</td>
+                 <td>nuts</td>
+                 <td>keri</td>
+                 <td>ladyfinger</td>
+                 <td>couliflower</td>
+        </th>
+     </table>
+    </table>
+    <table >
+        <th colspan="2">name
+            <th>number</th>
+            <th>addres</th>
+            <tr>
+                <td>atul</td>
+                <td>lohani</td>
+                <td>65656</td>
+                <td>indore</td>
+            </tr>
+        </th>
+    </table>
+
+    <h1 style="color: green;">Nested Table</h1>
+    <table >
+        <tr>
+            <td>Table 1</td>
+            <td> Table 1
+                <table >
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>hello</td>
+            <td>world
+        <table>
+            <tr>
+                <td>table 50</td>
+                <td>table 55</td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>and table</td>
+            </tr>
+        </table>
+        </td>
+        </tr>
+    </table>
+</body>
+</html>

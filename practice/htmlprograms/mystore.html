@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>My Webstore</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: cursive;
+            margin: auto;
+            background-image: url(\store.bg.jpg);
+        }
+        .container{
+            color: rgb(0, 0, 0);
+            width: 900px;
+            border: 3px solid purple;
+            background-color: rgb(94, 133, 5);
+            margin: 10px auto;
+
+        }
+        .item{
+            /* border: 2px solid blue; */
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(207, 240, 18);
+        }
+        #fruits{
+            float: left;
+            width: 49%;
+        }
+        #computer{
+            float: left;
+            width: 49%;
+        }
+        #stationary{
+            clear: left;
+            width: 100%;
+        }
+        p, h1{
+            text-align: center;
+        }
+        img{
+            margin-bottom: -423px;
+            border: 2px solid rgb(14, 101, 214);
+        }
+        .navbar{
+            background-color: rgb(207, 240, 18);
+            border-radius: 30px;
+            position: sticky;
+            top: 0; 
+            z-index: 1000; 
+            width: 100%; 
+        }
+       
+        .navbar li{
+            float: left;
+            list-style: none;
+            text-decoration: none;
+            margin: 13px 20px;
+            padding: 3px 3px;
+
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .search{
+            float: right;
+            color: black;
+            padding: 11px 50px;
+        }
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alighnment</title>
+    <link rel="icon" type="image x-icon" href="\storeicon.png">
+   
+    <img src="\fruits.jpg" height="200px" width="200px"  alt="fruits" >
+    <img src="\computer.png" height="200px" width="200px" alt="computer" style="margin-left: 923px; margin: bottom -551px; margin-top: auto; margin-bottom: -662px;">
+    <img src="\staitonary.jpg" height="200px" width="200px" alt="staitonary" style="margin-bottom: -875px;">
+    <img src="\glasses.jpg" height="200px" width="200px" alt="glasses" style="margin-left: 1128px;margin-bottom: -1087px;" >
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://evisionsolutions.co.in/" style="text-decoration: none;">HOME </a></li>
+                <li><a href="https://evisionsolutions.co.in/" style="text-decoration: none;">ABOUT </a></li>    
+                <li><a href="https://evisionsolutions.co.in/" style="text-decoration: none;" >SERVICES </a></li>
+                <li><a href="https://evisionsolutions.co.in/" style="text-decoration: none;">CONTACT US</a></li>
+                <div class="search"> <input type="text" name="Search" id="Search" placeholder="Search Product" style="border-radius: 50px; width: 150px;"></div>
+            </ul>
+        </nav>
+    </header>
+    <h1 style="color: rgb(215, 228, 38);">WELCOME TO MY STORE</h1>
+    <div class="container">
+        <div id="FRUITS" class="item">
+            <h3>FRUITS</h3>What is a fruit? In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruits.What is a fruit? In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruits.
+            <p id="fruitspara" class="para"></p>
+    </div>
+    <div class="computer">
+        <div id="COMPUTER" class="item">
+            <h3>COMPUTER</h3>What is a computer? A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information.What is a computer? A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information.
+            <p id="computerpara" class="para"></p>
+    </div>
+    <div class="stationary">
+        <div id="stationary" class="item">
+            <h3>STATIONARY</h3>Originally, the term 'stationery' referred to all products sold by a stationer, whose name indicated that his book shop was on a fixed spot. This was usually somewhere near a university, and permanent, while medieval trading was mainly carried on by itinerant peddlers (including chapmen, who sold books) and others (such as farmers and craftsmen) at markets and fairs. It was a unique term used between the 13th and 15th centuries in the manuscript culture. Stationers' shops were places where books were bound, copied, and published.
+            <p id="stationary" class="para"></p>
+    </div>
+    <div class="glasses">
+        <div id="glasses" class="item">
+            <h3>GLASSES</h3>Originally, the term 'stationery' referred to all products sold by a stationer, whose name indicated that his book shop was on a fixed spot. This was usually somewhere near a university, and permanent, while medieval trading was mainly carried on by itinerant peddlers (including chapmen, who sold books) and others (such as farmers and craftsmen) at markets and fairs. It was a unique term used between the 13th and 15th centuries in the manuscript culture. Stationers' shops were places where books were bound, copied, and published.
+            <p id="glasses" class="para"></p>
+    </div>
+    
+    <a href="https://www.youtube.com/watch?v=1eP4NsYzY_w" style="text-decoration: none;">FRUITS</a>
+    <a href="https://www.youtube.com/watch?v=W7-u_w-0zHc" style="margin: 150px; text-decoration: none;"> COMPUTER</a>
+    <a href="https://www.youtube.com/watch?v=9IJjVQATYw4" style="margin: 75px; text-decoration: none;"> STATIONARY</a>
+    <a href="https://www.youtube.com/watch?v=0hnqJTBhfQs" style="margin: 47px;text-decoration: none;"> GLASSES</a>
+
+    <footer>
+        <p>ALL RIGHTS RESERVED</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes and Pseudo Selector</title>
+    <style>
+        input{
+            display: block;
+        }
+        .container{
+           display: block;
+           width: 233px;
+           margin: auto;
+         }
+         input[type='text']{
+            padding: 23px;
+            border: 10px solid red;
+         }
+         input[type='password']{
+            padding: 30px;
+            border: 20px solid blue;
+         }
+         ul li :hover{
+            color: blue;
+         }
+         a[target]{
+            color: green;
+            font-size: 35px;
+         }
+         li:nth-child(4){
+            color:brown
+         }
+         li:nth-child(1){
+            color: blueviolet;
+         }
+         li:nth-child(2){
+            color: green;
+         }
+         li:nth-child(3){
+            color: red;
+         }
+         li:nth-child(5){
+            color: yellow;
+         }
+         input[type='submit']{
+            color: hotpink;
+         }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="google.com" target="_blank">go to google</a></h1>
+        <form action="" class="form-control">
+            <input type="text" placeholder="enter your name">
+            <input type="password" placeholder="enter your password">
+            <input type="submit" placeholder="submit">
+        </form>
+        <ul>
+            <li class="items" id="item-1">item 1</li>
+            <li class="items" id="item-2">item 2</li>
+            <li class="items" id="item-3">item 3</li>
+            <li class="items" id="item-4">item 4</li>
+            <li class="items" id="item-5">item 5</li>
+        </ul>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        #box{
+            height: 200px;
+            width: 200px;
+            /* display: flex; */
+            background: skyblue;
+            align-items: center;
+            justify-content: center;
+            transition: width 2s;
+        }
+        #box:hover{
+            background-color: orange;
+            transition-property: background-color;
+            border-radius: 10px;
+            transition: ease-in-out;
+            transition-duration: 1s;
+            /* transition-delay: 3s; */
+            width: 500px;
+            /* height: 400px;
+            width: 400px;
+            border-radius: 100px;
+            font-size: 45px; */
+        }
+        #box1{
+            height: 200px;
+            width: 200px;
+            background: orange;
+            transition: width 3s;
+        }
+        #box1:hover{
+            background-color: white;
+            transition-property: background-color;
+            border-radius: 10px;
+            transition: ease-in-out;
+            transition-duration: 1s;
+            width: 500px;
+        }
+        #box2{
+            height: 200px;
+            width: 200px;
+            background: red;
+            transition: width 2s, height 4s;
+            
+        }
+        #box2:hover{
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h3>this is transition practice</h3>
+    <div class="container">
+        <div id="box">
+            This Is How Transition Works
+        </div>
+        <div id="box1">
+            another transition
+        </div>
+        <div id="box2">
+            height Width Transition
+        </div>
+    </div>
+</body>
+</html>

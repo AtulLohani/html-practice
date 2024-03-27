@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation and keyframes</title>
+    <style>
+        .container{
+            background-color: indigo ;
+        }
+        .box{
+            height: 250px;
+            width: 250px;
+            background-color: blue;
+            margin: auto;
+            position: fixed;
+            animation-name: atul1;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+        }
+
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: gray;
+            position: relative;
+            animation-name: atul3;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+        }
+        .box1{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(51, 150, 5);
+            margin: auto;
+            position: fixed;
+            animation-name: atul2;
+            animation-duration: 5s;
+            animation-iteration-count: 2; 
+        }
+        @keyframes atul3{
+            0%{
+                left: 150px;
+                right: 20px;
+            }
+            100%{
+                left: 230px;
+                right: 300px;
+            }
+        }
+
+        @keyframes atul2{
+            0%{
+                top: 20px;
+                left: 30px;
+            }
+            25%{
+                top: 50px;
+                right: 70px;
+            }
+            50%{
+                top: 70px;
+                bottom: 100px;
+            }
+        }
+        @keyframes atul1{
+            0%{
+            top:0px;
+            left:0px;
+        }
+        25%{
+            top: 250px;
+            left: 0px;
+        }
+        75%{
+            top: 250px;
+            left: 250px;
+        }
+        100%{
+            top: 0px;
+            left: 250px;
+        }
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" style="background-color: black;">
+        <div class="box">
+            This Is Box </div>
+        <div class="box1">
+            This Is Another Box </div>
+        <div class="box2">
+            This is Box Box </div>
+        </div>
+    </div>
+</body>
+</html>
